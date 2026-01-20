@@ -1,0 +1,20 @@
+/* ---------------------------------------------------------------------------+/
+FILE            :    boot.ael
+This file controls the loading of the design kit.
+The value of variable designKitRecord is picked up from the eesof_lib.cfg file.
+/+-----------------------------------------------------------------------------*/
+
+// Read values from eesof_lib.cfg file.
+decl Cree_Wlfspd_ADS_v10p0_NAME = designKitRecord[0];
+decl Cree_Wlfspd_ADS_v10p0_PATH = designKitRecord[1];
+decl Cree_Wlfspd_ADS_v10p0_BOOT = designKitRecord[2];
+decl Cree_Wlfspd_ADS_v10p0_VER  = designKitRecord[3];
+
+decl Cree_Wlfspd_ADS_v10p0_BITMAP_DIR = sprintf("%s/circuit/bitmaps/", Cree_Wlfspd_ADS_v10p0_PATH);
+decl Cree_Wlfspd_ADS_v10p0_CIRCUIT_AEL_DIR = sprintf("%s/circuit/ael/", Cree_Wlfspd_ADS_v10p0_PATH);
+decl Cree_Wlfspd_ADS_v10p0_CIRCUIT_MODEL_DIR = sprintf("%s/circuit/models/", Cree_Wlfspd_ADS_v10p0_PATH);
+decl Cree_Wlfspd_ADS_v10p0_DE_AEL_DIR = sprintf("%s/de/ael/", Cree_Wlfspd_ADS_v10p0_PATH);
+
+// Load the circuit/ael files
+load(strcat(Cree_Wlfspd_ADS_v10p0_PATH,"circuit/ael/Cree_Wlfspd_ADS_v10p0_encode_item"));
+load(strcat(Cree_Wlfspd_ADS_v10p0_PATH,"circuit/ael/Cree_Wlfspd_ADS_v10p0_encode_def"));

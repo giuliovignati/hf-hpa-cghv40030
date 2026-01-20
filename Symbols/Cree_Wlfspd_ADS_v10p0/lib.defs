@@ -1,0 +1,5 @@
+# Library Defs for Cree_Wlfspd_ADS_v10p0 design kit
+DEFINE Cree_Wlfspd_ADS_v10p0_tech ./Cree_Wlfspd_ADS_v10p0_tech
+ASSIGN Cree_Wlfspd_ADS_v10p0_tech libMode readOnly
+DEFINE Cree_Wlfspd_ADS_v10p0 ./Cree_Wlfspd_ADS_v10p0
+ASSIGN Cree_Wlfspd_ADS_v10p0 libMode readOnly

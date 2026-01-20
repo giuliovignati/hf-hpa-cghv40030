@@ -1,0 +1,1366 @@
+create_item("CGHV14250F_v2",		//Name
+		"CGHV14250F_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV14250F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Vds_dc","Average (dc) drain-source voltage",67584,"StdFormSet","9",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",67584,"StdFormSet","-1",prm("StdForm","0.95")),
+		create_parm("Tbase","Baseplate Temperature",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV14500F_v2",		//Name
+		"CGHV14500F_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV14500F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Vds_dc","Average (dc) drain-source voltage",67584,"StdFormSet","9",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",67584,"StdFormSet","-1",prm("StdForm","0.31")),
+		create_parm("Tbase","Baseplate Temperature",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV14800F_v1",		//Name
+		"CGHV14800F_v1 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV14800F_v1",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		"",		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal resistance from baseplate to junction (degC/watt)",67584,"StdFormSet","-1",prm("StdForm","0.32")),
+		create_parm("Tbase","Baseplate or Package Temperature (degC)",65536,"StdFormSet","-1",prm("StdForm","25")));
+
+create_item("CGHV27015S_v2",		//Name
+		"CGHV27015S_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV27015S_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal resistance from baseplate to junction (degC/watt)",68608,"StdFormSet","-1",prm("StdForm","11.1")),
+		create_parm("Tbase","Baseplate or Package Temperature (degC)",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","DC Bias Drain Voltage (V)",68608,"StdFormSet","9",prm("StdForm","50")),
+		create_parm("x1","Monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV27030S_v2",		//Name
+		"CGHV27030S_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV27030S_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal resistance from baseplate to junction (degC/watt)",68608,"StdFormSet","-1",prm("StdForm","6.18")),
+		create_parm("Tbase","Baseplate or Package Temperature (degC)",68608,"StdFormSet","-1",prm("StdForm","25")));
+
+create_item("CGHV27060MP_v2",		//Name
+		"CGHV27060MP_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV27060MP_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		"",		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal resistance from baseplate to junction (degC/watt)",68608,"StdFormSet","-1",prm("StdForm","1.88")),
+		create_parm("Tbase","Baseplate or Package Temperature (degC)",68608,"StdFormSet","-1",prm("StdForm","25")));
+
+create_item("CGHV35060MP_v2",		//Name
+		"CGHV35060MP_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV35060MP_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",68608,"StdFormSet","-1",prm("StdForm","1.88")),
+		create_parm("Temp","Baseplate Temperature",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV35400F_v2",		//Name
+		"CGHV35400F_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV35400F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Vds_dc","Average (dc) drain-source voltage",67584,"StdFormSet","9",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",67584,"StdFormSet","-1",prm("StdForm","0.3")),
+		create_parm("Tbase","Baseplate Temperature",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV35120F_v1",		//Name
+		"CGHV35120F_v1 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV35120F_v1",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("VDN","Base Plate Temperature",68608,"StdFormSet","-1",prm("StdForm","50")),
+		create_parm("Tbase","Base Plate Temperature",68608,"StdFormSet","12",prm("StdForm","25")),
+		create_parm("Rth","Thermal Resistance, Default as 1.2 under 20% duty cycle, 300us pulse width condition",68608,"StdFormSet","-1",prm("StdForm","1.2")),
+		create_parm("x1","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV37400F_v2",		//Name
+		"CGHV37400F_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV37400F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("TNOM","channel temp",65536,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","Drain Bias Voltage",65536,"StdFormSet","-1",prm("StdForm","50")),
+		create_parm("Rth","thermal resistance",65536,"StdFormSet","-1",prm("StdForm","0.44")),
+		create_parm("x1","Monte Carlo parameter",65536,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo parameter",65536,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV40200P_v2",		//Name
+		"CGHV40200P_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV40200P_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		"",		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Vds_dc","Average (dc) drain-source voltage",68608,"StdFormSet","9",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",68608,"StdFormSet","-1",prm("StdForm","0.94")),
+		create_parm("Tbase","Baseplate Temperature",68608,"StdFormSet","-1",prm("StdForm","25")));
+
+create_item("CGHV40320D_v1",		//Name
+		"CGHV40320D_v1 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV40320D_v1",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Vds_dc","Average (dc) drain-source voltage",67584,"StdFormSet","9",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",67584,"StdFormSet","-1",prm("StdForm","0.35")),
+		create_parm("Tbase","Baseplate Temperature",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGH27030S_v1",		//Name
+		"CGH27030S_v1 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH27030S_v1",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal resistance from baseplate to junction (degC/watt)",68608,"StdFormSet","-1",prm("StdForm","3.43")),
+		create_parm("Tbase","Baseplate or Package Temperature (degC)",68608,"StdFormSet","-1",prm("StdForm","25")));
+
+create_item("CGH40006S_v2",		//Name
+		"CGH40006S_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40006S_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		"",		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal resistance from baseplate to junction (degC/watt)",68608,"StdFormSet","-1",prm("StdForm","10.1")),
+		create_parm("Tbase","Baseplate or Package Temperature (degC)",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("vdn","Baseplate or Package Temperature (degC)",68608,"StdFormSet","-1",prm("StdForm","28")));
+
+create_item("CGH40010F_v2",		//Name
+		"CGH40010F_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40010F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("t","t",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("rth","rth",68608,"StdFormSet","-1",prm("StdForm","8")),
+		create_parm("x1","monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGH40025F_v2",		//Name
+		"CGH40025F_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40025F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",67584,"StdFormSet","-1",prm("StdForm","4.8")),
+		create_parm("Tbase","Baseplate Temperature",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGH40035F_v2",		//Name
+		"CGH40035F_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40035F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",68608,"StdFormSet","-1",prm("StdForm","3")),
+		create_parm("Tbase","Baseplate Temperature",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGH40045F_v2",		//Name
+		"CGH40045F_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40045F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Tbase","case temp",65536,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("Rth","thermal resistance",65536,"StdFormSet","-1",prm("StdForm","2.7")),
+		create_parm("x1","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGH40120F_v2",		//Name
+		"CGH40120F_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40120F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",67584,"StdFormSet","-1",prm("StdForm","1.39")),
+		create_parm("Tbase","Baseplate Temperature",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGH40180PP_V1",		//Name
+		"CGH40180PP_V1 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40180PP_V1",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("VDN","Vds Bias Point",67584,"StdFormSet","-1",prm("StdForm","28")),
+		create_parm("Temp","Base plate temperature",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("Rth","Thermal resistance",67584,"StdFormSet","-1",prm("StdForm","0.75")),
+		create_parm("x1","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGH60008D_v2",		//Name
+		"CGH60008D_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH60008D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",68608,"StdFormSet","-1",prm("StdForm","5.7")),
+		create_parm("Tbase","Baseplate Temperature",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte carlo parameters",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte carlo parameters",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGH60015D_v2",		//Name
+		"CGH60015D_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH60015D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",68608,"StdFormSet","-1",prm("StdForm","5.1")),
+		create_parm("Tbase","Baseplate Temperature",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGH60030D_v2",		//Name
+		"CGH60030D_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH60030D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",68608,"StdFormSet","-1",prm("StdForm","3")),
+		create_parm("Tbase","Baseplate Temperature",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGH60060D_v2",		//Name
+		"CGH60060D_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH60060D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",68608,"StdFormSet","-1",prm("StdForm","1.5")),
+		create_parm("Tbase","Baseplate Temperature",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGH60120D_v2",		//Name
+		"CGH60120D_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH60120D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",68608,"StdFormSet","-1",prm("StdForm","0.8")),
+		create_parm("Tbase","Baseplate Temperature",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CG2H30070F_v2",		//Name
+		"CG2H30070F_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CG2H30070F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Rth",67584,"StdFormSet","-1",prm("StdForm","1.5")),
+		create_parm("Tbase","TBASE",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("Vdn","TBASE",67584,"StdFormSet","-1",prm("StdForm","28")),
+		create_parm("x1","Monte Carlo Parameter - Vth, Cgs",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter - Cgd",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CG2H40010F_v2",		//Name
+		"CG2H40010F_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CG2H40010F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","RTH",67584,"StdFormSet","-1",prm("StdForm","85")),
+		create_parm("Tbase","TBASE",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","VDN",67584,"StdFormSet","-1",prm("StdForm","28")),
+		create_parm("x1","Monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CG2H40025F_v2",		//Name
+		"CG2H40025F_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CG2H40025F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Rth",67584,"StdFormSet","-1",prm("StdForm","4.8")),
+		create_parm("Tbase","Tbase",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","VDN",67584,"StdFormSet","-1",prm("StdForm","28")),
+		create_parm("x1","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CG2H40035FP_v1",		//Name
+		"CG2H40035FP_v1 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CG2H40035FP_v1",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Rth",67584,"StdFormSet","-1",prm("StdForm","3.4")),
+		create_parm("Tbase","Tbase",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","VDN",67584,"StdFormSet","-1",prm("StdForm","28")),
+		create_parm("x1","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CG2H40045F_v2",		//Name
+		"CG2H40045F_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CG2H40045F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Rth",67584,"StdFormSet","-1",prm("StdForm","2.8")),
+		create_parm("Tbase","Tbase",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","VDN",67584,"StdFormSet","-1",prm("StdForm","28")),
+		create_parm("x1","Monte-Carlo parameter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo parameter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CG2H40120F_v2",		//Name
+		"CG2H40120F_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CG2H40120F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("RTH","RTH",67584,"StdFormSet","-1",prm("StdForm","1.39")),
+		create_parm("TBASE","TBASE",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","VDN",67584,"StdFormSet","-1",prm("StdForm","28")),
+		create_parm("x1","Monte-carlo parameter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-carlo parameter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CG2H80015D_v2",		//Name
+		"CG2H80015D_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CG2H80015D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("RTH","RTH",67584,"StdFormSet","-1",prm("StdForm","5.1")),
+		create_parm("TBASE","TBASE",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","VDN",67584,"StdFormSet","-1",prm("StdForm","28")),
+		create_parm("x1","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CG2H80030D_v2",		//Name
+		"CG2H80030D_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CG2H80030D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("RTH","RTH",67584,"StdFormSet","-1",prm("StdForm","3")),
+		create_parm("TBASE","TBASE",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","VDN",67584,"StdFormSet","-1",prm("StdForm","28")),
+		create_parm("x1","Monte carlo parameter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte carlo parameter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CG2H80045D_v2",		//Name
+		"CG2H80045D_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CG2H80045D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","RTH",67584,"StdFormSet","-1",prm("StdForm","2")),
+		create_parm("Tbase","TBASE",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","VDN",67584,"StdFormSet","-1",prm("StdForm","28")),
+		create_parm("x1","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo Parameter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CG2H80060D_v2",		//Name
+		"CG2H80060D_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CG2H80060D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("RTH","RTH",67584,"StdFormSet","-1",prm("StdForm","1.5")),
+		create_parm("TBASE","TBASE",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","VDN",67584,"StdFormSet","-1",prm("StdForm","28")),
+		create_parm("x1","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CG2H80120D_v2",		//Name
+		"CG2H80120D_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CG2H80120D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("RTH","RTH",67584,"StdFormSet","-1",prm("StdForm","0.8")),
+		create_parm("TBASE","TBASE",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","VDN",67584,"StdFormSet","-1",prm("StdForm","28")),
+		create_parm("x1","Monte carlo parameter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte carlo parameter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV1J006D_v2",		//Name
+		"CGHV1J006D_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV1J006D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Rth",67584,"StdFormSet","-1",prm("StdForm","27.1")),
+		create_parm("Tbase","Tbase",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","VDN",67584,"StdFormSet","-1",prm("StdForm","40")),
+		create_parm("vts","monte carlo parameter for vth and cgs",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("vtsc","monte carlo parameter for cgd",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV1J025D_v2",		//Name
+		"CGHV1J025D_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV1J025D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Rth",67584,"StdFormSet","-1",prm("StdForm","6.78")),
+		create_parm("Tbase","Tbase",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","VDN",67584,"StdFormSet","-1",prm("StdForm","40")),
+		create_parm("vts","monte carlo parameter for vth and cgs",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("vtsc","monte carlo parameter for cgd",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV1J070D_v2",		//Name
+		"CGHV1J070D_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV1J070D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Rth",67584,"StdFormSet","-1",prm("StdForm","2.26")),
+		create_parm("Tbase","Tbase",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("VDN","VDN",67584,"StdFormSet","-1",prm("StdForm","40")),
+		create_parm("vts","monte carlo parameter for vth and cgs",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("vtsc","monte carlo parameter for cgd",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV40030FP_v1",		//Name
+		"CGHV40030FP_v1 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV40030FP_v1",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Tbase","baseplate temperature",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("Rth","thermal res",67584,"StdFormSet","-1",prm("StdForm","5.9")),
+		create_parm("x1","Monte Carlo Paramter",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Paramter",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV40050F_v1",		//Name
+		"CGHV40050F_v1 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV40050F_v1",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal resistance from baseplate to junction (degC/watt)",68608,"StdFormSet","-1",prm("StdForm","3.11")),
+		create_parm("Tbase","Baseplate or Package Temperature (degC)",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV40100F_v2",		//Name
+		"CGHV40100F_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV40100F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Vds_dc","Average (dc) drain-source voltage",68608,"StdFormSet","9",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",68608,"StdFormSet","-1",prm("StdForm","1.72")),
+		create_parm("Tbase","Baseplate Temperature",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV40180FP_v1",		//Name
+		"CGHV40180FP_v1 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV40180FP_v1",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal resistance from baseplate to junction (degC/watt)",68608,"StdFormSet","-1",prm("StdForm","0.95")),
+		create_parm("Tbase","Baseplate or Package Temperature (degC)",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV59070F_v1",		//Name
+		"CGHV59070F_v1 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV59070F_v1",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("RTH","RTH",67584,"StdFormSet","-1",prm("StdForm","1.94")),
+		create_parm("TBASE","TBASE",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("vts","Monte Carlo Parameter for Vth and Cgs",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("vtsc","Monte Carlo Parameter for Cgd",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV59350F_v2",		//Name
+		"CGHV59350F_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV59350F_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Vds_dc","Average (dc) drain-source voltage",68608,"StdFormSet","9",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",68608,"StdFormSet","-1",prm("StdForm","0.31")),
+		create_parm("Tbase","Baseplate Temperature",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Monte carlo paramters",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte carlo paramters",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV60015D_v1",		//Name
+		"CGHV60015D_v1 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV60015D_v1",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",67584,"StdFormSet","-1",prm("StdForm","11.1")),
+		create_parm("Tbase","Baseplate Temperature",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("vts","monte carlo parameter for vth and cgs",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("vtsc","monte carlo parameter for cgd",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV60040D_v2",		//Name
+		"CGHV60040D_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV60040D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",67584,"StdFormSet","-1",prm("StdForm","5.9")),
+		create_parm("Tbase","Baseplate Temperature",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("vts","monte carlo parameter for vth and cgs",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("vtsc","monte carlo parameter for cgd",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV60075D_v2",		//Name
+		"CGHV60075D_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV60075D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",67584,"StdFormSet","-1",prm("StdForm","2.67")),
+		create_parm("Tbase","Baseplate Temperature",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("vts","monte carlo parameter for vth and cgs",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("vtsc","monte carlo parameter for cgd",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV60170D_v2",		//Name
+		"CGHV60170D_v2 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV60170D_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Rth","Thermal Resistance from Channel to Baseplate",67584,"StdFormSet","-1",prm("StdForm","1.48")),
+		create_parm("Tbase","Baseplate Temperature",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("vts","monte carlo parameter for vth and cgs",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("vtsc","monte carlo parameter for cgd",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV1F006S_v3",		//Name
+		"CGHV1F006S_v3 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV1F006S_v3",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("VDN","Vds Bias Voltage",67584,"StdFormSet","-1",prm("StdForm","40")),
+		create_parm("Rth","Thermal resistance from baseplate to junction (degC/watt)",67584,"StdFormSet","-1",prm("StdForm","18.4")),
+		create_parm("Tbase","Baseplate or Package Temperature (degC)",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Baseplate or Package Temperature (degC)",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Baseplate or Package Temperature (degC)",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CGHV1F025S_v3",		//Name
+		"CGHV1F025S_v3 - encoded",		//Label
+		"Q",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGHV1F025S_v3",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("VDN","Vds Bias Voltage",67584,"StdFormSet","-1",prm("StdForm","40")),
+		create_parm("Rth","Thermal resistance from baseplate to junction (degC/watt)",67584,"StdFormSet","-1",prm("StdForm","3.4")),
+		create_parm("Tbase","Baseplate or Package Temperature (degC)",67584,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("x1","Baseplate or Package Temperature (degC)",67584,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Baseplate or Package Temperature (degC)",67584,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("CMPA0530002S_V1",		//Name
+		"CMPA0530002S_V1 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CMPA0530002S_V1",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("VDN","Vds Q Point",68608,"StdFormSet","9",prm("StdForm","28")),
+		create_parm("Rth","Thermal Resistance",68608,"StdFormSet","1",prm("StdForm","30.45")),
+		create_parm("Tbase","base plate temperature",68608,"StdFormSet","12",prm("StdForm","25")),
+		create_parm("x1","monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("GTVA101K42_v2",		//Name
+		"GTVA101K42_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"GTVA101K42_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Tbase","Flange temperature [degC]",68608,"StdFormSet","12",prm("StdForm","25")),
+		create_parm("VDN","Quiescent Bias Voltage",68608,"StdFormSet","-1",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance",68608,"StdFormSet","-1",prm("StdForm","0.15")),
+		create_parm("x1","Monte-Carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("GTVA107001_v2",		//Name
+		"GTVA107001_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"GTVA107001_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Tbase","Flange temperature [degC]",68608,"StdFormSet","12",prm("StdForm","25")),
+		create_parm("VDN","Quiescent Bias Voltage",68608,"StdFormSet","-1",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance",68608,"StdFormSet","-1",prm("StdForm","0.3")),
+		create_parm("x1","Monte-Carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("GTRA184602_v0",		//Name
+		"GTRA184602_v0 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"GTRA184602_v0",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("VDN","Vds Q Point",68608,"StdFormSet","9",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance",68608,"StdFormSet","1",prm("StdForm","0.29")),
+		create_parm("Tbase","base plate temperature",68608,"StdFormSet","12",prm("StdForm","25")),
+		create_parm("x1","monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("GTVA126001_v2",		//Name
+		"GTVA126001_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"GTVA126001_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Tbase","Flange temperature [degC]",68608,"StdFormSet","12",prm("StdForm","25")),
+		create_parm("VDN","Quiescent Bias Voltage",68608,"StdFormSet","-1",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance",68608,"StdFormSet","-1",prm("StdForm","0.3")),
+		create_parm("x1","Monte-Carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("GTRA362002_v2",		//Name
+		"GTRA362002_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"GTRA362002_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("VDN","Vds Q Point",68608,"StdFormSet","9",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance",68608,"StdFormSet","1",prm("StdForm","1.42")),
+		create_parm("Tbase","base plate temperature",68608,"StdFormSet","12",prm("StdForm","25")),
+		create_parm("x1","monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("GTRA362802_v2",		//Name
+		"GTRA362802_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"GTRA362802_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("VDN","Vds Q Point",68608,"StdFormSet","9",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance",68608,"StdFormSet","1",prm("StdForm","0.68")),
+		create_parm("Tbase","base plate temperature",68608,"StdFormSet","12",prm("StdForm","25")),
+		create_parm("x1","monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("GTRA364002_v2",		//Name
+		"GTRA364002_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"GTRA364002_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Tbase","Flange temperature [degC]",68608,"StdFormSet","12",prm("StdForm","25")),
+		create_parm("VDN","Quiescent Bias Voltage",68608,"StdFormSet","-1",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance",68608,"StdFormSet","-1",prm("StdForm","0.6")),
+		create_parm("x1","Monte-Carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("GTRA384802_v2",		//Name
+		"GTRA384802_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"GTRA384802_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Tbase","Flange temperature [degC]",68608,"StdFormSet","12",prm("StdForm","25")),
+		create_parm("VDN","Quiescent Bias Voltage",68608,"StdFormSet","-1",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance",68608,"StdFormSet","-1",prm("StdForm","0.45")),
+		create_parm("x1","Monte-Carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte-Carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("GTRA412852_v2",		//Name
+		"GTRA412852_v2 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"GTRA412852_v2",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("VDN","Vds Q Point",68608,"StdFormSet","9",prm("StdForm","50")),
+		create_parm("Rth","Thermal Resistance",68608,"StdFormSet","1",prm("StdForm","1")),
+		create_parm("Tbase","base plate temperature",68608,"StdFormSet","12",prm("StdForm","25")),
+		create_parm("x1","monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","monte carlo parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("GTRB264318_v0",		//Name
+		"GTRB264318_v0 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"GTRB264318_v0",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Temp","Baseplate Temperature",68608,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("Rth","Thermal Resistance",68608,"StdFormSet","-1",prm("StdForm","0.34")),
+		create_parm("x1","Monte Carlo Paraemter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Paraemter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
+create_item("WSGPA01_V0",		//Name
+		"WSGPA01_V0 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"WSGPA01_V0",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+);
+
+create_item("WS1A3640P1_V0",		//Name
+		"WS1A3640P1_V0 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"Cree_Wlfspd_ADS_v10p0\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"WS1A3640P1_V0",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("Temp","Base Plate Temperature",68608,"StdFormSet","-1",prm("StdForm","75")),
+		create_parm("Rth","Thermal Resistance",68608,"StdFormSet","-1",prm("StdForm","2.22")),
+		create_parm("x1","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")),
+		create_parm("x2","Monte Carlo Parameter",68608,"StdFormSet","-1",prm("StdForm","1")));
+
